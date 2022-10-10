@@ -1,0 +1,18 @@
+@font-face{
+    font-family: 'UniversLTCYR-Light';
+    font-weight: 300;
+    font-style: normal;
+    src: local('UniversLTCYR-Light'),
+      url('../fonts/UniversLTCYR-Light.woff2') format('woff2'),
+      url('../fonts/UniversLTCYR-Light.woff') format('woff');
+    font-display: swap;
+  }
+@font-face{
+    font-family: 'UniversLTCYR-Bold';
+    font-weight: 700;
+    font-style: normal;
+    src: local('UniversLTCYR-Bold'),
+      url('../fonts/UniversLTCYR-Bold.woff2') format('woff2'),
+      url('../fonts/UniversLTCYR-Bold.woff') format('woff');
+    font-display: swap;
+  }

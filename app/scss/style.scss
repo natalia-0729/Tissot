@@ -3,4 +3,119 @@
 @import 'reset';
 @import 'global';
 
+.header{
+  background: url('../images/bg.jpg') no-repeat center;
+  background-size: cover;
+  height: 900px;
+  &__inner{
+    padding-top: 72px;
+    padding-bottom: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__content{
+    text-align: center;
+  }
+  &__title{
+    @extend %quicksand-700;
+    font-size: 82px;
+    line-height: 98px;
+    color: #fff;
+  }
+  &__subtitle{
+    font-size: 24px;
+    line-height: 29px;
+    color: #fff;
+    @extend %quicksand-300;
+    margin-bottom: 65px;
+  }
+  &__btn{
+    background: #fff;
+    border: 2px solid transparent;
+    border-image: linear-gradient( to right, #E32111 , #E3211100);
+    -moz-border-image: -moz-linear-gradient(left, #E32111 , #E3211100);
+    -webkit-border-image: -webkit-linear-gradient(left,#E32111 ,#E3211100);
+    border-image-slice: 1;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 21px 64px;
+    color: #000;
+    text-transform: uppercase;
+  }
+}
+.menu{
+  &__list{
+    display: flex;
+  }
+  &__list-item + .menu__list-item{
+    padding-left: 80px;
+  }
+  &__list-link{
+    color: #fff;
+  }
+}
+
+.conferenсe{
+  background-image: url('../images/conference-img.jpg');
+  background-repeat: no-repeat;
+  background-position: right 77%;
+  padding: 110px 0;
+  &-description{
+    width: 595px;
+  }
+}
+
+.conference-banner{
+  background: url('../images/bg-watch.jpg') no-repeat center;
+  background-size: cover;
+  height: 900px;
+  padding-top: 115px;
+ &__inner{
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  &__name{
+    width: 290px;
+  }
+  &__date{
+    text-align: end;
+    margin-top: 515px;
+  }
+  &__subtitle{
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.48em;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    @extend %quicksand-300;
+  }
+  &__title{
+    color: #fff;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    @extend %quicksand-700;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @import 'media';
