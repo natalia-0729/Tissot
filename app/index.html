@@ -7,18 +7,18 @@
   <title>Tissot</title>
   <link rel="stylesheet" href="css/style.min.css">
 </head>
-<body>
+<body id="body">
   
 <header class="header">
   <div class="container">
     <div class="header__inner">
-      <a class="logo" href="#"><img class="logo__img" src="images/logo.svg" alt="logo"></a>
+      <a class="logo" href="#body"><img class="logo__img" src="images/logo.svg" alt="logo"></a>
       <nav class="menu">
         <ul class="menu__list">
-          <li class="menu__list-item"> <a class="menu__list-link" href="#">О конференции</a> </li>
-          <li class="menu__list-item"> <a class="menu__list-link" href="#">Программа</a> </li>
-          <li class="menu__list-item"> <a class="menu__list-link" href="#">Спикеры</a> </li>
-          <li class="menu__list-item"> <a class="menu__list-link" href="#">Квиз-игра</a> </li>
+          <li class="menu__list-item"> <a class="menu__list-link" href="#conference">О конференции</a> </li>
+          <li class="menu__list-item"> <a class="menu__list-link" href="#program">Программа</a> </li>
+          <li class="menu__list-item"> <a class="menu__list-link" href="#contact">Контакты</a> </li>
+          <li class="menu__list-item"> <a class="menu__list-link" href="#quiz">Квиз-игра</a> </li>
         </ul>
       </nav>
     </div>
@@ -26,13 +26,13 @@
     <div class="header__content">
       <h1 class="header__title">TISSOT</h1>
       <h5 class="header__subtitle">Диллерская конференция в Санкт-Петербурге</h5>
-      <a class="header__btn" href="#">Регистрация</a>
+      <a class="header__btn" href="#registration">Регистрация</a>
     </div>
 
   </div>
 </header>
 
-<section class="conferenсe">
+<section class="conferenсe" id="conference">
   <div class="container">
       <div class="conferenсe-description">
         <h2 class="title conferenсe-description__title">Конференция 2021</h2>
@@ -57,7 +57,7 @@
   </div>
 </section>
 
-<section class="program">
+<section class="program" id="program">
   <div class="container">
       <h2 class="title">Программа</h2>
     <div class="program__inner">
@@ -129,7 +129,7 @@
   </div>
 </section>
 
-<section class="place">
+<section class="place" id="contact">
   <div class="place__inner">
     <div class="place__navigation">
       <map name="navigation">
@@ -149,7 +149,7 @@
   </div>
 </section>
 
-<section class="request">
+<section class="request" id="registration">
   <div class="container">
       <h2 class="title">Оставить заявку на участие</h2>
       <p class="text request__text">Все данные конфиденциальны и будут доступны только организаторам мероприятия</p>
@@ -166,7 +166,7 @@
   </div>
 </section>
 
-<section class="quiz">
+<section class="quiz" id="quiz">
   <div class="container">
     <h2 class="title">TISSOT QUIZ</h2>
       <p class="text quiz__text">Мы предлагает тебе ответить на несколько вопросов. На ужине тот, кто наберет большее количсетво правильных отетов получит приз</p>
@@ -227,7 +227,7 @@
 <footer class="footer">
   <div class="container">
     <div class="footer__inner">
-      <img class="footer__logo" src="images/logo.svg" alt="logo">
+      <a class="logo" href="#body"> <img class="footer__logo" src="images/logo.svg" alt="logo"> </a>
       <div class="footer__socials">
         <a class="footer__social-link" href="#"><img class="footer__social-img" src="images/instagram.svg" alt="instagram"></a>
         <a class="footer__social-link" href="#"><img class="footer__social-img" src="images/twitter.svg" alt="twitter"></a>
