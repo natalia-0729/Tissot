@@ -71,11 +71,6 @@
   background-size: cover;
   height: 900px;
   padding-top: 115px;
- &__inner{
-    background-image: url('../images/watch.png');
-    background-repeat: no-repeat;
-    background-position: center;
-  }
   &__name{
     width: 290px;
   }
@@ -99,9 +94,220 @@
     text-transform: uppercase;
     @extend %quicksand-700;
   }
-
 }
 
+.program{
+  padding: 120px 0;
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__date{
+    color: #E32111;
+    font-size: 24px;
+    line-height: 29px;
+    @extend %quicksand-700;
+    margin-bottom: 24px;
+  }
+  &__date-2{
+    margin-right: 125px;
+  }
+  &__items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 39px;
+  }
+  &__item{
+    font-size: 24px;
+    line-height: 29px;
+    color: #000;
+    @extend %quicksand-300;
+    margin-bottom: 19px;
+  }
+  &-schedule__inner{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__item-part-1{
+    margin-left: 45px;
+  }
+  &__item-part-2{
+    margin-right: 73px;
+  }
+  &__item-part-3{
+    margin-right: 70px;
+  }
+  &-schedule__item{
+    margin-bottom: 24px;
+  }
+  &__time{
+    font-size: 18px;
+    line-height: 165%;
+    @extend %quicksand-700;
+    margin-bottom: 5px;
+  }
+  &__descr{
+    width: 300px;
+    font-size: 16px;
+    line-height: 165%;
+    @extend %quicksand-300;
+  }
+  &-schedule__part{
+    margin-right: 46px;
+  }
+}
+
+.place{
+  &__inner{
+    display: flex;
+    justify-content: space-between;
+  }
+  &__descr{
+    width: 444px;
+    margin-top: 158px;
+    text-align: right;
+  }
+  &__title{
+    @extend %quicksand-700;
+    font-size: 38px;
+    line-height: 45px;
+    color: #000;
+    padding-bottom: 18px;
+    margin-bottom: 60px;
+    position: relative;
+    &::after{
+      content: "";
+      position: absolute;
+      background-color: #E32111;
+      width: 80px;
+      height: 4px;
+      bottom: 0;
+      right: 0;
+    }
+    }
+  &__address{
+    margin-top: 361px;
+  }
+  &__address-str, &__address-sity{
+    font-size: 24px;
+    font-style: normal;
+    line-height: 182.5%;
+    text-align: right;
+    @extend %quicksand-300;
+  }
+}
+
+.request{
+  padding: 100px 0 138px;
+  &__text{
+    width: 415px;
+    margin-bottom: 63px;
+  }
+  &__form{
+    display: flex;
+    align-items: flex-end;
+  }
+  &__inner{
+    margin-right: 10px;
+  }
+  &__form-inf{
+    border: none;
+    border-bottom: 1px solid #373A39;
+    outline: none;
+    width: 278px;
+  }
+  
+  &__form-btn{
+    background: linear-gradient(95.24deg, #1C1C1C 17.64%, #000000 84.14%);
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    @extend %quicksand-700;
+    padding: 20px 74px;
+    cursor: pointer;
+  }
+}
+
+.quiz{
+  background-image: url('../images/quiz-image.jpg');
+  background-repeat: no-repeat;
+  background-position: right 77%;
+  padding: 58px 0 120px;
+
+  &__text{
+    width: 595px;
+    margin-bottom: 32px;
+  }
+  &__person{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);;
+    outline: none;
+    width: 377px;
+    text-transform: uppercase;
+    margin-bottom: 85px;
+  }
+  &__item{
+    display: flex;
+    align-items: flex-start;
+  }
+  &__question-num{
+    margin-right: 60px;
+    font-size: 38px;
+    line-height: 182.5%;
+    @extend %quicksand-300;
+    border-bottom: 2px solid #E32111;
+    border-radius: 20px;
+    width: 35px;
+    text-align: center;
+  }
+  &__question-descr{
+    width: 737px;
+    font-size: 24px;
+    line-height: 182.5%;
+    margin-bottom: 16px;
+  }
+  &__answer{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);;
+    outline: none;
+    width: 732px;
+    margin-bottom: 60px;
+  }
+  &__btn{
+    display: flex;
+    align-items: center;
+  }
+  &__text-btn{
+    width: 537px;
+    margin-right: 38px;
+  }
+}
+
+.footer{
+  background-color: #000;
+  padding: 54px 0;
+  &__logo{
+    display: block;
+    margin: 0 auto;
+  }
+  &__socials{
+    margin: 31px 0 49px;
+    display: flex;
+    justify-content: center;
+  }
+  &__social-link{
+    margin-right: 16px;
+  }
+  &__bottom{
+    font-size: 14px;
+    line-height: 165%;
+    color: #fff;
+    text-align: center;
+  }
+}
 
 
 
