@@ -45,6 +45,9 @@
   }
 }
 .menu{
+  &__btn{
+    display: none;
+  }
   &__list{
     display: flex;
   }
@@ -53,7 +56,12 @@
   }
   &__list-link{
     color: #fff;
+    padding-bottom: 10px;
+    transition: all .3s;
   }
+  &__list-link:hover{
+    border-bottom: 1px solid #E32111;
+}
 }
 
 .conferenсe{
@@ -67,17 +75,20 @@
 }
 
 .conference-banner{
-  background: url('../images/bg-watch.jpg') no-repeat center;
+  background: url('../images/bg-watch-1.jpg') no-repeat center;
   background-size: cover;
   height: 900px;
-  padding-top: 115px;
+  padding: 115px 0;
+  &__img{
+    margin: 0 auto;
+  }
   &__name{
-    width: 290px;
+    margin-top: -700px;
   }
-  &__date{
-    text-align: end;
-    margin-top: 515px;
-  }
+ &__date{
+  margin-left: 918px;
+  margin-top: 525px;
+}
   &__subtitle{
     color: #fff;
     font-size: 18px;

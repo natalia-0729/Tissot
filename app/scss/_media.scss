@@ -1,0 +1,609 @@
+@media (min-width: 1500px){
+  .conference-banner{
+    &__date{
+      margin-left: 927px;
+      margin-top: 545px;
+    }
+  }
+}
+@media (min-width: 1650px){
+  .conference-banner{
+    &__date{
+      margin-top: 563px;
+    }
+  }
+}
+@media (min-width: 1750px){
+  .container{
+    max-width: 1250px;
+  }
+  .conference-banner{
+    &__img{
+      height: 750px;
+    }
+    &__date{
+      margin-left: 1000px;
+      margin-top: 490px;
+    }
+  }
+}
+
+@media (min-width: 1900px){
+  body{
+    font-size: 20px;
+  }
+  .container{
+    max-width: 1500px;
+  }
+  .header{
+    &__title{
+      font-size: 90px;
+      line-height: 115px;
+    }
+    &__subtitle {
+      font-size: 32px;
+      line-height: 35px;
+      margin-bottom: 70px;
+    }
+    &__btn{
+      font-size: 22px;
+      padding: 24px 68px;
+    }
+  }
+  .title{
+    font-size: 45px;
+  }
+  .text{
+    font-size: 20px;
+  }
+  .conferenсe{
+    background-position: right 68%;
+    background-size: 800px;
+    &-description{
+      width: 670px;
+    }
+  }
+  .conference-banner{
+    &__img{
+      height: 825px;
+      margin-top: -54px;
+    }
+    &__name{
+      margin-top: -780px;
+    }
+    &__date {
+      margin-left: 1230px;
+      margin-top: 555px;
+    }
+  }
+}
+
+@media (min-width: 2500px){
+  .container {
+    max-width: 1700px;
+}
+  .conferenсe{
+    &-description{
+      width: 800px;
+    }
+  }
+  .conferenсe-banner{
+    &__img{
+      height: 870px;
+      margin-top: -93px;
+    }
+    &__date{
+      margin-left: 1315px;
+    }
+    &__title{
+      font-size: 50px;
+    }
+    &__subtitle{
+      font-size: 22px;
+      line-height: 25px;
+    }
+  }
+}
+
+@media (min-width: 3000px){
+  .container {
+    max-width: 2000px;
+  }
+  .conferenсe{
+    &-description{
+      width: 1000px;
+    }
+  }
+  .conferenсe-banner{
+    &__date{
+      margin-left: 1525px;
+    }
+    &__title{
+      font-size: 55px;
+    }
+    &__subtitle{
+      font-size: 26px;
+      line-height: 27px;
+    }
+  }
+}
+
+@media(max-width: 1370px){
+  .header
+  {
+    &__inner {
+      padding-top: 40px;
+    }
+    &__title {
+      font-size: 65px;
+      line-height: 85px;
+    }
+    &__subtitle {
+      font-size: 22px;
+      line-height: 20px;
+      margin-bottom: 50px;
+    }
+    &__btn{
+      font-size: 16px;
+      line-height: 17px;
+      padding: 19px 53px;
+    }
+  }
+  .menu{
+    &__list-item + .menu__list-item{
+      padding-left: 75px;
+    }
+  }
+  .text {
+    font-size: 16px;
+  }
+  .title{
+    font-size: 36px;
+  }
+  .conferenсe{
+    padding: 100px 0;
+    &-description{
+      width: 550px;
+    }
+  }
+}
+
+@media(max-width: 1275px){
+  body{
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .container{
+    max-width: 1100px;
+  }
+  .header{
+    &__title {
+      font-size: 60px;
+      line-height: 70px;
+  }
+    &__subtitle {
+      font-size: 20px;
+      line-height: 15px;
+      margin-bottom: 45px;
+  }
+  &__btn {
+    font-size: 14px;
+    line-height: 15px;
+    padding: 16px 45px;
+  }
+  }
+  .menu{
+    &__list-item + .menu__list-item{
+      padding-left: 70px;
+    }
+  }
+  .text {
+    font-size: 16px;
+  }
+  .title{
+    font-size: 36px;
+  }
+  .conferenсe{
+    background-size: 550px;
+    padding: 80px 0;
+    &-description{
+      width: 500px;
+    }
+  }
+  .text {
+    line-height: 30.85px;
+}
+  .conference-banner{
+    &__date {
+      margin-left: 860px;
+    }
+    &__name{
+      margin-left: 35px;
+    }
+    &__title{
+      font-size: 35px;
+      line-height: 35px;
+    }
+    &__subtitle{
+      font-size: 15px;
+    }
+  }
+}
+
+@media(max-width: 1150px){
+  .container{
+    max-width: 1000px;
+  }
+  .header{
+    &__inner {
+      padding-top: 35px;
+  }
+    &__title {
+      font-size: 55px;
+  }
+  }
+  .menu{
+    &__list-item + .menu__list-item{
+      padding-left: 65px;
+    }
+  }
+  .title{
+    margin-bottom: 40px;
+    font-size: 34px;
+  }
+  .text {
+    font-size: 15px;
+    line-height: 28.85px;
+}
+  .conferenсe{
+    &-description{
+      width: 440px;
+    }
+  }
+  .conference-banner{
+    &__date {
+      margin-left: 800px;
+    }
+    &__name{
+      margin-left: 50px;
+    }
+    &__title{
+      font-size: 32px;
+    }
+    &__subtitle{
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 1120px){
+  .text{
+    line-height: 24px;
+  }
+  .conferenсe{
+    &-description{
+      width: 400px;
+    }
+  }
+}
+
+@media(max-width: 1075px){
+  .container{
+    max-width: 950px;
+    padding: 0 50px;
+  }
+  .menu{
+    &__list-item + .menu__list-item{
+      padding-left: 60px;
+    }
+  }
+  .header{
+    &__title{
+      font-size: 45px;
+    }
+    &__subtitle {
+      font-size: 15px;
+      line-height: 10px;
+      margin-bottom: 35px;
+    }
+    &__btn{
+      letter-spacing: 1px;
+      font-size: 12px;
+      line-height: 15px;
+      padding: 14px 35px;
+    }
+  }
+  .title {
+    margin-bottom: 38px;
+    font-size: 32px;
+    &::after{
+      width: 70px;
+    }
+}
+  .text{
+    line-height: 22px;
+    font-size: 14px;
+  }
+  .conferenсe {
+    background-size: 460px;
+}
+.conference-banner{
+  &__date {
+    margin-left: 600px;
+  }
+  &__name{
+    margin-left: 15px;
+  }
+  &__title{
+    font-size: 30px;
+    line-height: 32px;
+  }
+}
+}
+
+@media (max-width: 950px){
+  .menu{
+    &__list-item + .menu__list-item{
+      padding-left: 45px;
+    }
+  }
+  .conferenсe {
+    background-size: 400px;
+  }
+  .title {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  .text {
+  line-height: 20px;
+  }
+}
+
+@media (max-width: 910px){
+  .conferenсe {
+    background-image: none;
+    &-description{
+      margin: 0 auto;
+      width: 630px;
+    }
+  }
+  .conference-banner{
+    padding: 90px 0;
+    &__img{
+      margin-left: -25px;
+    }
+    &__name{
+      margin-left: 500px;
+      margin-top: -400px;
+    }
+    &__date{
+      margin-left: 510px;
+      margin-top: 85px;
+    }
+    &__title {
+      font-size: 25px;
+      line-height: 25px;
+    }
+    &__subtitle{
+      font-size: 12px;
+      line-height: 18px;
+    }
+  }
+}
+
+@media (max-width: 800px){
+  .menu{
+    &__list-item + .menu__list-item{
+      padding-left: 35px;
+    }
+  }
+  .header{
+    &__title{
+      font-size: 40px;
+    }
+    &__subtitle{
+      font-size: 14px;
+      line-height: 7px;
+      margin-bottom: 30px;
+    }
+    &__btn{
+      padding: 12px 30px;
+    }
+  }
+  .conferenсe{
+    padding: 70px 0;
+  }
+  .title{
+    margin-bottom: 25px;
+    &::after{
+      width: 65px;
+      height: 3px;
+    }
+  }
+  .conference-banner{
+    padding: 50px 0;
+    &__img{
+      height: 600px;
+      margin-top: 105px;
+    }
+    &__name{
+      margin-left: 460px;
+    }
+    &__date{
+      margin-left: 465px;
+    }
+  }
+}
+
+
+@media (max-width: 768px){
+  .menu{
+    &__list{
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 110px;
+      background-color: #282828;
+      display: block;
+      text-align: center;
+      transform: translateY(-200%);
+      transition: all .5s;
+      }
+      &__list.menu__list--active{
+        transform: translateY(0%);
+      }
+    &__list-item + .menu__list-item{
+        margin-left: 0;
+    }
+    &__list-link{
+      display: block;
+      padding: 15px 0;
+      color: #fff;
+    }
+    &__list-link-first{
+      margin-left: 30px;
+    }
+    &__list ul{
+      padding: 17px 0;
+    }
+    &__btn{
+      display: block;
+      background-color: transparent;
+      border: none;
+      padding: 0;
+      margin-top: 30px;
+      position: relative;
+      z-index: 2;
+    }
+  }
+  .conferenсe {
+    &-description{
+      width: 500px;
+    }
+  }
+  .conference-banner{
+    &__name{
+      margin-left: 400px;
+    }
+    &__date{
+      margin-left: 408px;
+    }
+  }
+}
+
+@media (max-width: 685px){
+  .conference-banner{
+    &__name{
+      margin-left: 320px;
+      margin-top: -528px;
+    }
+    &__date{
+      margin-left: 320px;
+      margin-top: 345px;
+    }
+  }
+}
+
+@media (max-width: 600px){
+  .conferenсe{
+    &-description{
+      width: 400px;
+    }
+  }
+  .title{
+    font-size: 28px;
+    &::after{
+      width: 60px;
+      height: 2px;
+      bottom: 10px;
+    }
+  }
+  .conference-banner{
+    &__img{
+      width: 370px;
+    }
+    &__name, &__date{
+      margin-left: 270px;
+    }
+  }
+}
+
+@media (max-width: 550px){
+  .conference-banner{
+    &__img{
+      height: 555px;
+      margin-top: 189px;
+      margin-left: 55px;
+    }
+    &__inner{
+      margin-top: -735px;
+      margin-left: 25px;
+    }
+    &__name{
+      margin: 0 0 50px 0;
+    }
+    &__date{
+      margin: 0;
+    }
+    &__title{
+      line-height: 0;
+      font-size: 20px;
+    }
+  }
+}
+
+
+@media (max-width: 490px){
+  .container{
+    padding: 0 10px;
+  }
+  .header{
+    &__content {
+      text-align: center;
+      width: 200px;
+      margin: 0 auto;
+    }
+    &__title {
+      font-size: 30px;
+    }
+  &__subtitle{
+    line-height: 27px;
+    }
+  &__btn {
+    padding: 10px 18px;
+    }
+  }
+  .title {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+  .text {
+    line-height: 16px;
+    font-size: 12px;
+  }
+  .conferenсe{
+    padding: 50px 0;
+    &-description{
+      width: 300px;
+    }
+  }
+  .conference-banner{
+    &__img{
+      height: 535px;
+      width: 335px;
+      margin-top: 200px;
+      margin-left: 15px;
+    }
+  }
+}
+
+@media (max-width: 390px){
+  .conference-banner{
+    &__img {
+      height: 500px;
+      width: 310px;
+      margin-top: 225px;
+      margin-left: 9px;
+    }
+  }
+}
