@@ -5,11 +5,28 @@
       margin-top: 545px;
     }
   }
+  .request{
+    &__text{
+      width: 1200px;
+    }
+  }
 }
 @media (min-width: 1650px){
   .conference-banner{
     &__date{
       margin-top: 563px;
+    }
+  }
+  .program{
+    &__schedule-time {
+      font-size: 20px;
+    }
+    &__item-title, &__date{
+      font-size: 26px;
+    }
+    &__schedule-descr {
+      width: 335px;
+      font-size: 17px;
     }
   }
 }
@@ -24,6 +41,11 @@
     &__date{
       margin-left: 1000px;
       margin-top: 490px;
+    }
+  }
+  .place{
+    &__container, &__descr{
+      width: 700px;
     }
   }
 }
@@ -50,7 +72,7 @@
       padding: 24px 68px;
     }
   }
-  .title{
+  .title, .place__title{
     font-size: 45px;
   }
   .text{
@@ -76,6 +98,26 @@
       margin-top: 555px;
     }
   }
+  .place{
+    &__map{
+      width: 1000px;
+    }
+    &__address-str, &__address-sity{
+      font-size: 26px;
+    }
+  }
+  .request{
+    &__form-inf{
+      width: 325px;
+      margin-right: 15px;
+      padding-bottom: 10px;
+    }
+  }
+  .quiz{
+    &__text{
+      width: 735px;
+    }
+  }
 }
 
 @media (min-width: 2500px){
@@ -86,6 +128,9 @@
     &-description{
       width: 800px;
     }
+  }
+  .text {
+    font-size: 24px;
   }
   .conferenсe-banner{
     &__img{
@@ -103,11 +148,50 @@
       line-height: 25px;
     }
   }
+  .program{
+    &__schedule-time {
+      font-size: 24px;
+    }
+    &__item-title, &__date{
+      font-size: 32px;
+    }
+    &__schedule-descr {
+      font-size: 20px;
+    }
+  }
+  .place{
+    &__container, &__descr{
+      width: 900px;
+    }
+  }
+  .quiz{
+    &__text{
+      width: 800px;
+    }
+    &__question-descr {
+      width: 970px;
+    }
+  &__text-btn {
+    width: 700px;
+    }
+  &__question-descr {
+    font-size: 25px;
+    margin-bottom: 25px;
+    }
+  }
 }
 
 @media (min-width: 3000px){
   .container {
     max-width: 2000px;
+  }
+  .title, .place__title{
+    font-size: 50px;
+    padding-bottom: 40px;
+    &::after{
+      width: 100px;
+      height: 6px;
+    }
   }
   .conferenсe{
     &-description{
@@ -124,6 +208,18 @@
     &__subtitle{
       font-size: 26px;
       line-height: 27px;
+    }
+  }
+  .program{
+    &__schedule-time {
+      font-size: 28px;
+    }
+    &__item-title, &__date{
+      font-size: 36px;
+    }
+    &__schedule-descr {
+      font-size: 24px;
+      width: 440px;
     }
   }
 }
@@ -166,6 +262,40 @@
       width: 550px;
     }
   }
+  .program{
+    &__schedule-descr{
+      width: 223px;
+    }
+  }
+  .place{
+    &__map{
+      width: 680px;
+      height: 770px;
+    }
+    &__address {
+      margin-top: 300px;
+    }
+    &__address-str, &__address-sity{
+      font-size: 22px;
+    }
+  }
+  .request{
+    &__form-btn{
+      padding: 18px 50px;
+      font-size: 17px;
+    }
+  }
+  .quiz{
+    background-position: right 43%;
+    padding: 90px 0;
+    &__question-descr {
+      font-size: 22px;
+      width: 700px;
+    }
+    &__answer{
+      width: 670px;
+    }
+  }
 }
 
 @media(max-width: 1275px){
@@ -200,7 +330,7 @@
   .text {
     font-size: 16px;
   }
-  .title{
+  .title, .place__title{
     font-size: 36px;
   }
   .conferenсe{
@@ -227,6 +357,41 @@
     &__subtitle{
       font-size: 15px;
     }
+  }
+  .program{
+    padding: 100px 0 90px;
+  }
+  .place{
+    &__map {
+      width: 600px;
+      height: 700px;
+    }
+    &__address {
+      margin-top: 235px;
+    }
+    &__address-str, &__address-sity{
+      font-size: 22px;
+    }
+  }
+  .request{
+    &__form-inf{
+      width: 240px;
+    }
+  }
+  .quiz{
+    &__question-descr{
+      width: 630px;
+    }
+    &__answer {
+      width: 560px;
+    }
+    &__question-num{
+      font-size: 30px;
+      margin-right: 40px;
+    }
+    &__text-btn {
+      width: 455px;
+   }
   }
 }
 
@@ -285,12 +450,49 @@
       width: 400px;
     }
   }
+  .program{
+    margin-left: 130px;
+    &__inner{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .place{
+    &__map {
+      width: 500px;
+      height: 590px;
+  }
+    &__descr {
+      margin-top: 77px;
+      width: 400px;
+    }
+    &__address-str, &__address-sity{
+      font-size: 20px;
+    }
+  }
+  .request{
+    padding: 80px 0;
+    &__form{
+      align-items: center;
+    }
+    &__form-inf{
+      display: block;
+      width: 400px;
+      margin-bottom: 25px;
+    }
+    &__form-btn{
+      padding: 18px 40px;
+    }
+  }
+  .quiz{
+    background-size: 200px;
+    background-position: right 430px;
+  }
 }
 
 @media(max-width: 1075px){
   .container{
     max-width: 950px;
-    padding: 0 50px;
+    padding: 0 15px;
   }
   .menu{
     &__list-item + .menu__list-item{
@@ -313,7 +515,7 @@
       padding: 14px 35px;
     }
   }
-  .title {
+  .title, .place__title{
     margin-bottom: 38px;
     font-size: 32px;
     &::after{
@@ -339,6 +541,24 @@
     line-height: 32px;
   }
 }
+.program{
+  &__descr{
+    width: 215px;
+  }
+  &__date{
+    margin-bottom: 10px;
+  }
+  &__items{
+    margin-bottom: 25px;
+  }
+  &__item-title{
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+  &__item-part{
+    margin-top: 12px;
+  }
+}
 }
 
 @media (max-width: 950px){
@@ -350,16 +570,46 @@
   .conferenсe {
     background-size: 400px;
   }
-  .title {
+  .title, .place__title{
     margin-bottom: 30px;
     font-size: 30px;
   }
   .text {
   line-height: 20px;
   }
+ .place{
+  &__container{
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  &__map{
+    width: 430px;
+    height: 545px;
+  }
+  &__descr{
+    width: 336px;
+  }
+  &__address-str, &__address-sity{
+    font-size: 18px;
+    line-height: normal;
+  }
+ }
+ .request, .quiz{
+  &__container{
+    padding-left: 35px;
+  }
+ }
+ .quiz{
+  &__question-descr{
+    width: 590px;
+  }
+ }
 }
 
 @media (max-width: 910px){
+  .title, .place__title{
+    font-size: 28px;
+  }
   .conferenсe {
     background-image: none;
     &-description{
@@ -389,7 +639,43 @@
       line-height: 18px;
     }
   }
+  .place{
+    &__descr{
+      margin-top: 40px;
+    }
+    &__descr, &__address{
+      width: 290px;
+    }
+  }
+  .quiz{
+    background-size: 170px;
+    background-position: right 375px;
+    &__container{
+      padding-left: 40px;
+    }
+    &__person{
+      width: 300px;
+    }
+    &__answer{
+      width: 450px;
+      margin-bottom: 40px;
+    }
+    &__question-descr{
+      width: 420px;
+      line-height: normal;
+      font-size: 20px;
+    }
+    &__question-num{
+      font-size: 26px;
+      margin-right: 20px;
+    }
+    &__text-btn{
+      width: 315px;
+      margin-right: 15px;
+    }
+  }
 }
+
 
 @media (max-width: 800px){
   .menu{
@@ -413,7 +699,7 @@
   .conferenсe{
     padding: 70px 0;
   }
-  .title{
+  .title, .place__title{
     margin-bottom: 25px;
     &::after{
       width: 65px;
@@ -433,8 +719,23 @@
       margin-left: 465px;
     }
   }
+  .program{
+    margin-left: 0;
+    &__title{
+      margin-left: 75px;
+    }
+    &__inner{
+      grid-template-columns: repeat(1, 1fr);
+      margin-left: 300px;
+    }
+    &__item{
+      margin-top: 0;
+    }
+    &__schedule-descr{
+      line-height: normal;
+    }
+  }
 }
-
 
 @media (max-width: 768px){
   .menu{
@@ -489,6 +790,46 @@
       margin-left: 408px;
     }
   }
+  .place{
+    &__map{
+      width: 330px;
+      height: 500px;
+    }
+    &__address{
+      margin-top: 160px;
+    }
+  }
+  .request{
+    &__form{
+      display: block;
+    }
+    &__form-btn{
+      font-size: 12px;
+    padding: 10px 28px;
+    }
+  }
+  .footer{
+    &__bottom{
+      font-size: 12px;
+    }
+  }
+  .quiz{
+    background-size: 150px;
+    padding: 50px 0;
+    &__text{
+      width: 500px;
+    }
+    &__question-num{
+      font-size: 20px;
+    }
+    &__question-descr{
+      font-size: 18px;
+      width: 380px;
+    }
+    &__answer{
+      width: 360px;
+    }
+  }
 }
 
 @media (max-width: 685px){
@@ -500,6 +841,36 @@
     &__date{
       margin-left: 320px;
       margin-top: 345px;
+    }
+  }
+  .program{
+    padding: 80px 0 40px;
+    &__inner{
+      margin-left: 240px;
+    }
+    &__schedule-time{
+      margin-bottom: 0;
+    }
+  }
+  .place{
+    &__map{
+      width: 270px;
+    }
+    &__descr, &__address{
+      width: 220px;
+    }
+  }
+  .quiz{
+    background-size: 130px;
+    &__text{
+      width: 333px;
+    }
+    &__question-descr{
+      width: 280px;
+      font-size: 16px;
+    }
+    &__answer{
+      width: 250px;
     }
   }
 }
@@ -550,7 +921,53 @@
       font-size: 20px;
     }
   }
-}
+  .program{
+    &__inner{
+      margin-left: 140px;
+    }
+  }
+  .place{
+    &__map{
+      display: none;
+    }
+    &__descr, &__address{
+      margin-right: 60px;
+      width: 330px;
+    }
+    &__address{
+      margin-bottom: 16px;
+    }
+  }
+    .quiz{
+      background-size: 110px;
+      background-position: right 430px;
+      &__person{
+        width: 250px;
+      }
+      &__question-num{
+        margin-right: 15px;
+        font-size: 17px;
+      }
+      &__question-descr{
+        font-size: 14px;
+        width: 245px;
+      }
+      &__answer{
+        width: 200px;
+      }
+      &__btn{
+        display: block;
+      }
+      &__text-btn{
+        margin-bottom: 10px;
+      }
+      &__form-btn{
+        letter-spacing: 0.25em;
+        font-size: 10px;
+      }
+    }
+  }
+
 
 
 @media (max-width: 490px){
@@ -573,7 +990,7 @@
     padding: 10px 18px;
     }
   }
-  .title {
+  .title, .place__title{
     font-size: 26px;
     margin-bottom: 20px;
 }
@@ -595,7 +1012,54 @@
       margin-left: 15px;
     }
   }
+  .program{
+    &__title, &__inner{
+      margin-left: 50px;
+    }
+  }
+  .place{
+    &__address-str, &__address-sity{
+      font-size: 16px;
+  }
+  &__descr, &__address{
+    width: 290px;
+    margin-right: 0;
+  }
+  &__address{
+    margin-top: 120px;
+  }
 }
+  .request{
+    padding: 60px 0;
+    &__container{
+      padding: 0 20px;
+    }
+    &__form-inf{
+      width: 250px;
+    }
+    &__title{
+      width: 245px;
+    }
+    &__text{
+      width: 300px;
+      margin-bottom: 35px;
+      }
+    }
+    .quiz{
+      background-image: none;
+      padding-left: 20px;
+      &__person{
+        margin-bottom: 50px;
+      }
+    }
+    .footer{
+      &__bottom{
+        font-size: 10px;
+        margin: 0 auto;
+        width: 250px;
+      }
+    }
+  }
 
 @media (max-width: 390px){
   .conference-banner{
@@ -604,6 +1068,17 @@
       width: 310px;
       margin-top: 225px;
       margin-left: 9px;
+    }
+  }
+  .quiz{
+    &__text{
+      width: 225px;
+    }
+    &__person{
+      width: 200px;
+    }
+    &__text-btn{
+      width: 290px;
     }
   }
 }

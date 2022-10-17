@@ -108,12 +108,7 @@
 }
 
 .program{
-  padding: 120px 0;
-  &__inner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  padding: 120px 0;  
   &__date{
     color: #E32111;
     font-size: 24px;
@@ -121,53 +116,36 @@
     @extend %quicksand-700;
     margin-bottom: 24px;
   }
-  &__date-2{
-    margin-right: 125px;
-  }
-  &__items{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #000000;
-    margin-bottom: 39px;
+  &__inner{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
   &__item{
+    margin-top: 53px;
+  }
+  &__item-schedule{
+    margin-bottom: 24px;
+  }
+  &__item-title{
+    text-decoration: underline;
+    text-underline-position: under;
+    margin-bottom: 39px;
     font-size: 24px;
     line-height: 29px;
     color: #000;
     @extend %quicksand-300;
-    margin-bottom: 19px;
   }
-  &-schedule__inner{
-    display: flex;
-    justify-content: space-between;
-  }
-  &__item-part-1{
-    margin-left: 45px;
-  }
-  &__item-part-2{
-    margin-right: 73px;
-  }
-  &__item-part-3{
-    margin-right: 70px;
-  }
-  &-schedule__item{
-    margin-bottom: 24px;
-  }
-  &__time{
+  &__schedule-time{
     font-size: 18px;
     line-height: 165%;
     @extend %quicksand-700;
     margin-bottom: 5px;
   }
-  &__descr{
-    width: 300px;
+  &__schedule-descr{
+    width: 315px;
     font-size: 16px;
     line-height: 165%;
     @extend %quicksand-300;
-  }
-  &-schedule__part{
-    margin-right: 46px;
   }
 }
 
@@ -176,6 +154,10 @@
     display: flex;
     justify-content: space-between;
   }
+  &__map{
+    width: 730px;
+  }
+ 
   &__descr{
     width: 444px;
     margin-top: 158px;
@@ -212,7 +194,7 @@
 }
 
 .request{
-  padding: 100px 0 138px;
+  padding: 100px 0;
   &__text{
     width: 415px;
     margin-bottom: 63px;
@@ -229,6 +211,8 @@
     border-bottom: 1px solid #373A39;
     outline: none;
     width: 278px;
+    margin-right: 10px;
+    padding-bottom: 5px;
   }
   
   &__form-btn{
@@ -245,8 +229,8 @@
 .quiz{
   background-image: url('../images/quiz-image.jpg');
   background-repeat: no-repeat;
-  background-position: right 77%;
-  padding: 58px 0 120px;
+  background-position: right 58%;
+  padding: 120px 0;
 
   &__text{
     width: 595px;
@@ -259,6 +243,7 @@
     width: 377px;
     text-transform: uppercase;
     margin-bottom: 85px;
+    padding-bottom: 10px;
   }
   &__item{
     display: flex;
@@ -286,6 +271,7 @@
     outline: none;
     width: 732px;
     margin-bottom: 60px;
+    padding-bottom: 10px;
   }
   &__btn{
     display: flex;
